@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production'? '/wedding-invitation-new/': '/',
+  base: process.env.NODE_ENV === 'production'? '/sherzod-farangiz-wedding/': '/',
   plugins: [vue()],
   resolve: {
     alias: {
