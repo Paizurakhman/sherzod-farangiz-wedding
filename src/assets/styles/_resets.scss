@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "AdineKirnberg";
+  src: url("../fonts/adinekir.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KalenderblattGrotesk";
+  src: url("../fonts/KalenderblattGrotesk.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AsylbekMo";
+  src: url("../fonts/AsylbekM02Shelley.kz.ttf") format("truetype");
+  font-style: normal;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 500;
+  font-family: 'Montserrat Alternates', sans-serif;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  color: #181818;
+  background: #e8e0d5;
+
+  font-size: .875rem;
+}
+
+ul,li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
